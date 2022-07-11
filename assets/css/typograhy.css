@@ -1,9 +1,20 @@
-.fs_xxxl {
-    font-size: var(--fs_xxxl);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'heading';
+    src: url(../font/FontsFree-Net-AzoSans.ttf);
+}
+
+.ff_heading {
+    font-family: 'heading' !important;
+}
+
+.ff_body {
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .fs_xxl {
-    font-size: var(--fs_xxl);
+    font-size: var(--fs_xxl) !important;
 }
 
 .fs_xl {
@@ -41,30 +52,22 @@
 .fw_700 {
     font-weight: 700 !important;
 }
-
-.ff_heading {
-    font-family: 'times' !important;
+.fw_800 {
+    font-weight: 800 !important;
+}
+.fw_900 {
+    font-weight: 900 !important;
 }
 
-.ff_body {
-    font-family: 'Open Sans', sans-serif !important;
-}
 
-.color_primary{
+.text_gold{
     color: var(--color_primary);
 }
 
-.bg_green{
+.bg_gold{
     background-color: var(--color_primary);
 }
-.bg_lightgreen{
-    background-color: var(--color_secondary);
-}
 
-.bg_pink{
-    background-color: var(--bg_pink);
-}
-
-.bg_gray{
-    background-color: var(--bg_gray);
+.gold_shadow{
+    box-shadow: var(--box_shadow);
 }
