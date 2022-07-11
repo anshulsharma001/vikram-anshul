@@ -1,0 +1,44 @@
+.bg-hero{
+    background-image: url(../image/png/hero.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+
+.navbar{
+    background: #0A0A0A;
+    border-radius: 0% 0% 50% 50%;
+}
+
+.grass_1{
+    right: 0px;
+}
+.grass_2{
+    left: 0px;
+}
+
+.nav-item:hover{
+  box-shadow: var(--box_shadow);
+}
+.nav-item{
+    border-radius: 50%;
+    transition: 300ms ease-in-out;
+}
+.w-40{
+    width: 49%;
+}
+
+.button{
+    padding: 16px 24px;
+    box-shadow: 0px 4px 16px rgba(253, 218, 96, 0.5);
+border-radius: 4px;
+transition: 300ms ease-in-out;
+}
+.button:hover{
+    padding: 16px 24px;
+    box-shadow: 0px 4px 16px rgba(253, 218, 96, 1);
+    border-radius: 4px;
+    background-color: transparent;
+    color: white !important;
+}
