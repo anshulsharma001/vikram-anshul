@@ -15,6 +15,10 @@
     --box_shadow: 0px 4px 24px rgba(253, 218, 96, 0.8);
 
 
+    --line_h_25: 25.6px;
+    --line_h_69: 69.6px;
+
+
 }
 
 @media (min-width:300px) {

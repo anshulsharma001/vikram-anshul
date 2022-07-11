@@ -3,3 +3,38 @@
 @import url('./typograhy.css');
 @import url('./utility.css');
 
+
+/* -----vikram-css---- */
+.bg_black{
+    background-color: black;
+}
+.document_box{
+    background: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(31px);
+border-radius: 16px;
+padding: 25px 19px 22px 22px;
+}
+.document_box:hover{
+    background: #FDDA60;
+    transform: scale(1.04);
+    transition: all 400ms ease-in-out;
+}
+.active_bg_yellow{
+    background: #FDDA60;
+}
+
+.bg_printed{
+    background-image: url('../image/png/bg_printed.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.positioning-1{
+    top: 0;
+    left: -20%;
+}
+.positioning-2{
+    top: 0;
+    right: -30%;
+}

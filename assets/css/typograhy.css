@@ -71,3 +71,6 @@
 .gold_shadow{
     box-shadow: var(--box_shadow);
 }
+.line_h_25{
+    line-height: var(--line_h_25);
+}
