@@ -1,3 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Anaheim);
+
+
+
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+
+.container1{
+	margin: 4% auto;
+	width: 210px;
+	height: 140px;
+	position: relative;
+	perspective: 1900px;
+    transform: rotate3d(1, 1, 1, 20deg);
+}
+
+
+#carousel{
+	width: 100% !important;
+    animation: rotation 30s infinite linear;
+	height: 100% !important;
+	position: absolute;
+	transform-style: preserve-3d;
+	
+  
+}
+#carousel:hover{
+	animation-play-state: paused;
+}
+#carousel figure{
+	display: block;
+	position: absolute;
+    
+	left: 10px;
+	top: 10px;
+	background: transparent !important;
+    
+	
+}
+#carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
+#carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(288px);}
+#carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(288px);}
+#carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(288px);}
+#carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(288px);}
+#carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(288px);}
+#carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(288px);}
+#carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
+#carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
+
+
+
+@keyframes rotation{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}
+
+
+
 html,body{
     overflow-x: hidden;
 }
@@ -6,7 +71,8 @@ html,body{
     background-position: center  ;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 130vh;
+    min-height: 100vh;
+   
 }
 
 .navbar{
@@ -50,19 +116,22 @@ z-index: 999 !important;
 .monkey-3{
     right: 30%;
     bottom: 0%;
-    z-index: 0;
+    z-index: 0 !important;
+    
 }
 .monkey-2{
-    right: 3%;
+    right: 9%;
     bottom: 0%;
-    z-index: 1;
+    z-index: 0 !important;
+    
 }
 .monkey-1{
-    right: -35%;
+    right: -23%;
     bottom: 0%;
-    z-index: 3;
+   z-index: 0 !important;
+   
 }
 
 .h_hero{
-    min-height: 110vh !important;
-}
+       z-index: 1 !important;
+    }
