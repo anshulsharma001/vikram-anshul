@@ -62,13 +62,25 @@
     }
 }
 
-@media (min-width:1200px) {
-    :root {
-        --fs_xxl: 64px;
-        --fs_xl: 36px;
-        --fs_lg: 24px;
-        --fs_md: 22px;
-        --fs_sm: 20px;
-        --fs_xs: 16px;
+@media (min-width:1400px) {
+    .bg-hero{
+        background-image: url(../image/png/hero.png);
+        background-position: center  ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh !important;
+        z-index: -30 !important;
     }
 }
+
+
+@media only screen and (max-width: 1500px) {
+    .bg-hero{
+        background-image: url(../image/png/hero.png);
+        background-position: center  ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 135vh !important;
+       
+    }
+  }
