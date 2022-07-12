@@ -8,3 +8,56 @@
     box-sizing: border-box !important;
     scroll-behavior: smooth !important;
 }
+
+.b1, .b2, .b3,.b4,.b5,.b6,.b7,.b8,.b9,.b10{
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    
+  }
+  
+  .content {
+   top: 10%;
+   left: 50%;
+   transform: translateX(-50%);
+  
+  
+  }
+  
+  .img1 {
+    width: 750px !important;
+    display: inline !important;
+  }
+  
+  #second, #third,#forth,#five,#six,#seven,#eight,#nine,#ten,#first {
+    display: none
+  }
+  
+  button {
+    outline: none;
+  }
+
+  .b2,.b4{
+    transform: translateX(50%);
+  }
+  .b3{
+    transform: translateX(100%);
+  }
+  .b7,.b9{
+    transform: translateX(-50%);
+  }
+  .b8{
+    transform: translateX(-100%);
+  }
+
+
+  .left{
+    left: -2%;
+  }
+
+  .right{
+    right: -2%;
+  }
+  .min_vh_100{
+    min-height: 110vh;
+  }

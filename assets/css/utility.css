@@ -14,7 +14,7 @@
 	height: 140px;
 	position: relative;
 	perspective: 1900px;
-    transform: rotate3d(1, 1, 1, 20deg);
+    transform: rotate3d(1, 1, 1, 20deg) !important;
 }
 
 
@@ -65,6 +65,7 @@
 
 html,body{
     overflow-x: hidden;
+    height: 100%;
 }
 .bg-hero{
     background-image: url(../image/png/hero.png);
