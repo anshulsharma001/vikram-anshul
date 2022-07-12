@@ -6,31 +6,33 @@
     <title>DOMPKONG</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- aos-animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
       <header class="bg-hero">
       <nav class="navbar position-relative">
        <div class="container">
-        <img class="grass_1 position-absolute" src="./assets/image/png/grass (1).png" alt="">
-        <img class="grass_2 position-absolute" src="./assets/image/png/grass (2).png" alt="">
+        <img  data-aos="fade-down-right" data-aos-delay= "500" class="grass_1 position-absolute" src="./assets/image/png/grass (1).png" alt="">
+        <img data-aos="fade-up-left " data-aos-delay="500" class="grass_2 position-absolute" src="./assets/image/png/grass (2).png" alt="">
         <div class="mx-auto">
           <img class="ms-5 ps-3" src="./assets/image/png/logo.png" alt="">
           <div class="my-4">
             <a href="#"><img class="me-3 nav-item " src="./assets/image/png/nav-1.png" alt="nav"></a>
-            <a href=""><img class="me-3 nav-item" src="./assets/image/png/nav-2.png" alt="nav"></a>
-            <a href=""><img class="me-3 nav-item" src="./assets/image/png/nav-3.png" alt="nav"></a>
-            <a href=""><img class="me-3 nav-item" src="./assets/image/png/nav-4.png" alt="nav"></a>
-            <a href=""><img class="me-3 nav-item" src="./assets/image/png/nav-5.png" alt="nav"></a>
-            <a href=""><img class="me-0 nav-item" src="./assets/image/png/nav-6.png" alt="nav"></a>
+            <a href="#"><img class="me-3 nav-item" src="./assets/image/png/nav-2.png" alt="nav"></a>
+            <a href="#"><img class="me-3 nav-item" src="./assets/image/png/nav-3.png" alt="nav"></a>
+            <a href="#"><img class="me-3 nav-item" src="./assets/image/png/nav-4.png" alt="nav"></a>
+            <a href="#"><img class="me-3 nav-item" src="./assets/image/png/nav-5.png" alt="nav"></a>
+            <a href="#"><img class="me-0 nav-item" src="./assets/image/png/nav-6.png" alt="nav"></a>
           </div>
         </div>
        </div>
       </nav>
-      <section class="position-relative">
-        <div class="container">
-          <img class="position-absolute" src="./assets/image/png/Albert.png" alt="">
-          <img class="position-absolute" src="./assets/image/png/Prince.png" alt="">
-          <img class="position-absolute" src="./assets/image/png/monkey.png" alt="">
+      <section class="">
+        <div class="container h_hero position-relative">
+          <img data-aos="fade-down-right" data-aos-delay="300" class="position-absolute monkey-1" src="./assets/image/png/Albert.png" alt="">
+          <img data-aos="fade-down-right" data-aos-delay="500" class="position-absolute monkey-2" src="./assets/image/png/Prince.png" alt="">
+          <img data-aos="fade-down-right" data-aos-delay="700" class="position-absolute monkey-3" src="./assets/image/png/monkey.png" alt="">
            <div class="text-center w-40 mx-auto">
             <h1 class="fs_xxl ff_heading text-white text-center my-3">
               WELCOME <br> TO <span class="ff_heading text_gold">DOMPKONG</span>
@@ -45,10 +47,14 @@
         </div>
       </section>
       </header>
+<section class="min-vh-100">
 
-
+</section>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  
+    <script>
+      AOS.init();
+    </script>
   
   </body>
 </html>

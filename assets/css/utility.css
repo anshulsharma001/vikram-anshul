@@ -1,9 +1,12 @@
+html,body{
+    overflow-x: hidden;
+}
 .bg-hero{
     background-image: url(../image/png/hero.png);
-    background-position: center;
+    background-position: center  ;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 120vh;
+    min-height: 130vh;
 }
 
 .navbar{
@@ -34,6 +37,7 @@
     box-shadow: 0px 4px 16px rgba(253, 218, 96, 0.5);
 border-radius: 4px;
 transition: 300ms ease-in-out;
+z-index: 999 !important;
 }
 .button:hover{
     padding: 16px 24px;
@@ -41,4 +45,24 @@ transition: 300ms ease-in-out;
     border-radius: 4px;
     background-color: transparent;
     color: white !important;
+}
+
+.monkey-3{
+    right: 30%;
+    bottom: 0%;
+    z-index: 0;
+}
+.monkey-2{
+    right: 3%;
+    bottom: 0%;
+    z-index: 1;
+}
+.monkey-1{
+    right: -35%;
+    bottom: 0%;
+    z-index: 3;
+}
+
+.h_hero{
+    min-height: 110vh !important;
 }
