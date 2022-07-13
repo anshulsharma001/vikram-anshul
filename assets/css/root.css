@@ -21,7 +21,16 @@
 
 }
 
-
+/* @media (min-width:300px) {
+  :root {
+      --fs_xxl: 56px;
+      --fs_xl: 36px;
+      --fs_lg: 24px;
+      --fs_md: 22px;
+      --fs_sm: 20px;
+      --fs_xs: 16px;    
+  }
+} */
 
 @media (min-width:1400px) {
     .bg-hero{
@@ -36,6 +45,8 @@
     .min_vh_100{
         min-height: 130vh !important;
       }
+
+
 }
 
 
@@ -108,10 +119,6 @@
     --fs_sm: 16px;
     --fs_xs: 16px;
     }
-
-   
-
-   
   }
 @media only screen and (min-width: 1500px) {
 
@@ -161,9 +168,15 @@
       right: 0% !important;
       
     }
-
-   
-   
+    :root{
+        
+      --fs_xxl: 85px;
+      --fs_xl: 30px;
+      --fs_lg: 20px;
+      --fs_md: 16px;
+      --fs_sm: 16px;
+      --fs_xs: 26px;
+      }
   }
 
   @media only screen and (min-width: 998px){
