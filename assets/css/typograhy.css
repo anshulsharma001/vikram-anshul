@@ -18,19 +18,19 @@
 }
 
 .fs_xl {
-    font-size: var(--fs_xl);
+    font-size: var(--fs_xl) !important;
 }
 
 .fs_lg {
-    font-size: var(--fs_lg);
+    font-size: var(--fs_lg) !important;
 }
 
 .fs_md {
-    font-size: var(--fs_md);
+    font-size: var(--fs_md) !important;
 }
 
 .fs_sm {
-    font-size: var(--fs_sm);
+    font-size: var(--fs_sm) !important;
 }
 
 .fs_xs {
