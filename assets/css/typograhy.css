@@ -59,6 +59,9 @@
     font-weight: 900 !important;
 }
 
+.color_black{
+    color: var(--color_black);
+}
 
 .text_gold{
     color: var(--color_primary);
@@ -70,6 +73,12 @@
 
 .gold_shadow{
     box-shadow: var(--box_shadow);
+}
+.line_h_25{
+    line-height: var(--line_h_25);
+}
+.line_h_69{
+    line-height: var(--line_h_69);
 }
 
 
