@@ -60,37 +60,28 @@
       
   }
 
-  @media only screen and (max-width: 569px){
-    .monkey-3{
-        display: none;
-    }
-    .monkey-2{
-        display: none;
-    }
-    .monkey-1{
-        display: none;
-    }
-  }
+  
 
 @media only screen and (max-width: 769px) {
     
 
     .bg-hero{
         background-position: center right  !important;
-        min-height: 80vh !important;
+        min-height: 100vh !important;
        
     }
 
     .monkey-3{
-        right: 20% !important;
+        right: 50% !important;
        width: 200px;
     }
     .monkey-2{
         width: 200px;
+        right: 25% !important;
     }
     .monkey-1{
         width: 300px;
-        right: -8% !important;
+        right: -15% !important;
     }
 
     .grass_1{
@@ -140,7 +131,47 @@
     .min_vh_100{
         min-height: 140vh !important;
     }
+
+    .phase_1{
+      transform: translate(-24%, -98%);
+    }
+    .phase_2{
+      transform: translate(-14%, -49%);
+    }
+    .phase_3{
+      transform: translate(-11%, -8%);
+    }
+    .phase_4{
+      transform: translate(-13%, 34%);
+    }
+    .phase_5{
+      transform: translate(-20%, 75%);
+    }
+    .roadmap{
+      min-height: 90vh !important;
+    }
+    .bottom{
+      bottom: 0%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .col_8{
+      top: 20% !important;
+      right: 0% !important;
+      
+    }
+
    
+   
+  }
+
+  @media only screen and (min-width: 998px){
+    .col_8{
+      top: 50% !important;
+      right: 0% !important;
+      transform: translateY(-50%) !important;
+    }
   }
 
   @media only screen and (max-width: 998px){
@@ -181,6 +212,35 @@
       .b8{
         transform: translateX(0%);
       }
+      .pac{
+        display: none !important;
+      }
+      .ring{
+        display: none !important;
+      }
+      .line{
+        display: none !important;
+      }
+
+      .phase_1{
+        transform: translate(0%, 0%);
+      }
+      .phase_2{
+        transform: translate(0%, 0%);
+      }
+      .phase_3{
+        transform: translate(0%, 0%);
+      }
+      .phase_4{
+        transform: translate(0%, 0%);
+      }
+      .phase_5{
+        transform: translate(0%, 0%);
+      }
+      .col_8{
+       position: static !important;
+      }
+    
     
   }
 
@@ -204,7 +264,7 @@
       .left{
         flex-direction: row !important;
         gap: 8px;
-        top: 55px;
+        top: 15%;
         left: -25px !important;
     }
     .right{
@@ -215,12 +275,16 @@
     }
 
     .min_vh_100{
-        min-height: 90vh;
+        min-height: 100vh !important;
     }
  
     .content{
-      top: 20%;
+      top: 25%;
       position: absolute;
       left: 50%;
+  }
+    
+  .width{
+    width: 100% !important;
   }
 }

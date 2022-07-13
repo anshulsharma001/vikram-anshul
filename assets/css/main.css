@@ -14,7 +14,7 @@
 .document_box{
     background: rgba(255, 255, 255, 0.1);
 border: 1px solid rgba(255, 255, 255, 0.2);
-backdrop-filter: blur(31px);
+filter: blur(px);
 border-radius: 16px;
 padding: 25px 19px 22px 22px;
 }
@@ -218,7 +218,7 @@ border-bottom: 1px solid #FDDA60;}
 }
 .accordion-button {
   /* z-index: 3; */
- /* border-bottom: 1px solid #FDDA60 !important; */
+ border-bottom: 0px solid #FDDA60 !important;
  border-top: 1px solid #FDDA60 !important;
   outline: 0;
 }
@@ -226,6 +226,7 @@ border-bottom: 1px solid #FDDA60;}
 .accordion-button:not(.collapsed) {
   background-color: yellow;
   color: white !important;
+  
 }
 
 
@@ -233,11 +234,13 @@ border-bottom: 1px solid #FDDA60;}
   padding: 22px 20px;
   background-color: transparent !important;
   color: white;
+ 
 }
 
 .accordion-item {
   background-color: transparent !important;
   color: white;
+  border-bottom: none !important;
 }
 
 .accordion-button:focus {
