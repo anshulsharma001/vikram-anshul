@@ -34,7 +34,7 @@
     }
 
     .min_vh_100{
-        min-height: 125vh;
+        min-height: 130vh !important;
       }
 }
 
@@ -45,13 +45,16 @@
     }
     .b1, .b2, .b3,.b4,.b5,.b6,.b7,.b8,.b9,.b10{
         background-color: black;
-        height: 115px;
-        width: 115px;
+        height: 130px;
+        width: 130px;
         
       }
       .img1 {
         width: 600px !important;
         display: inline !important;
+      }
+      .min_vh_100{
+        min-height: 130vh !important;
       }
       
       
@@ -194,24 +197,30 @@
 
        .b1, .b2, .b3,.b4,.b5,.b6,.b7,.b8,.b9,.b10{
         background-color: black;
-        height: 50px;
-        width: 50px;
+        height: 80px;
+        width: 80px;
         
       }
       .left{
         flex-direction: row !important;
-        gap: 30px;
-        top: 0;
-        left: 0 !important;
+        gap: 8px;
+        top: 55px;
+        left: -25px !important;
     }
     .right{
         flex-direction: row !important;
-        bottom: 0;
-        gap: 30px;
-        right: 0;
+        bottom: 30px;
+        gap: 8px;
+        right: -30px;
     }
 
     .min_vh_100{
         min-height: 90vh;
     }
+ 
+    .content{
+      top: 20%;
+      position: absolute;
+      left: 50%;
   }
+}
