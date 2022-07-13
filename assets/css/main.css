@@ -161,6 +161,11 @@ margin-top: 29px;
   transform: scale(1.04);
   /* transition: all 400ms ease-in-out; */
 }
+.jaylon_man{
+  box-shadow: 0px 8px 26px rgba(253, 218, 96, 0.5);
+  overflow: hidden;
+  border-radius: 18px;
+}
 .scale_transition:hover{
   transition: all 400ms ease-in-out;
 }
@@ -169,6 +174,86 @@ border-bottom: 1px solid #FDDA60;}
 
 .border_bottom_yellow{
   border-bottom: 1px solid #FDDA60;
+}
+
+/* ------accordian-section------ */
+
+.blur_footer {
+  height: 200px;
+  width: 200px;
+  filter: blur(180px);
+  background-color: #FDDA60;
+  transition: 0.3s ease-in-out;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.positioning_blur{
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.blur_right_shadow{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  filter: blur(100px) !important;
+  /* z-index: 999; */
+ }
+
+.footer_bg{
+  background-image: url('../image/png/footer_bg-one.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.border-radius_50 {
+  border-radius: 15px !important;
+}
+
+.accordion-button {
+  background-color: transparent !important;
+  color: white !important;
+  font-size: 20px;
+}
+.accordion-button {
+  /* z-index: 3; */
+ /* border-bottom: 1px solid #FDDA60 !important; */
+ border-top: 1px solid #FDDA60 !important;
+  outline: 0;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: yellow;
+  color: white !important;
+}
+
+
+.accordion-body {
+  padding: 22px 20px;
+  background-color: transparent !important;
+  color: white;
+}
+
+.accordion-item {
+  background-color: transparent !important;
+  color: white;
+}
+
+.accordion-button:focus {
+  z-index: 0 !important;
+  border-color: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+ 
+}
+.accordion-button::after {
+  background-image:url('../image/svg/Vector\ 1.svg') !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image:url('../image/svg/Vector\ 3.svg') !important;
+   transform: rotate(360deg) !important;
 }
 
 
@@ -194,4 +279,12 @@ border-bottom: 1px solid #FDDA60;}
   right: 20%;
 
 }
+}
+
+.twitter path:hover{
+  fill: #e21616;
+}
+.twitter:hover{
+  transform: translateY(-10px);
+  transition: all 400ms ease-in-out;
 }
