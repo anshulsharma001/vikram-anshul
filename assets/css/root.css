@@ -23,7 +23,7 @@
 
 @media (min-width:300px) {
     :root {
-        --fs_xxl: 64px;
+        --fs_xxl: 56px;
         --fs_xl: 36px;
         --fs_lg: 24px;
         --fs_md: 22px;
