@@ -117,19 +117,19 @@ display: block;
 }
 
 .monkey-3{
-    right: 30%;
+    right: 28%;
     bottom: 0%;
     z-index: 0 !important;
     
 }
 .monkey-2{
-    right: 9%;
+    right: 7%;
     bottom: 0%;
     z-index: 0 !important;
     
 }
 .monkey-1{
-    right: -23%;
+    right: -25%;
     bottom: 0%;
    z-index: 0 !important;
    
@@ -139,7 +139,7 @@ display: block;
        z-index: 1 !important;
 }
 .btn-4 {
-        border: 1px solid;
+       
         overflow: hidden !important;
         position: relative;
         overflow: hidden !important;

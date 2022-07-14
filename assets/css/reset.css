@@ -6,7 +6,7 @@
     text-decoration: none !important;
     list-style-type: none !important;
     box-sizing: border-box !important;
-    scroll-behavior: smooth !important;
+    
 }
 
 .b1, .b2, .b3,.b4,.b5,.b6,.b7,.b8,.b9,.b10{
@@ -63,14 +63,14 @@
   }
 
   .pac{
-    top: 50% !important;
+    top: 20% !important;
     left: 0% !important;
-    transform: translateY(-50%) !important;
+    transform: translateY(-20%) !important;
   }
   .ring{
-    top: 50% !important;
+    top: 20% !important;
     left: 10% !important;
-    transform: translateY(-50%) !important;
+    transform: translateY(-20%) !important;
   }
 
   .round{
@@ -116,4 +116,38 @@
   .wallet{
     right: 39px;
     top: 20px;
+}
+
+.underline {
+
+  position: relative; 
+}   
+
+.underline:after {
+   position: absolute;
+   content: '';
+   height: 5px;
+   bottom: -4px; 
+   margin: 0 auto;
+left: 0;
+  right: 0;
+width: 100%;
+background: #F1C85D;
+
+
+-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+
+
+
+
+
+.underline:hover:after {
+width: 0%;
+background: orange;
 }

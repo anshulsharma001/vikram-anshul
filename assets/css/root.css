@@ -70,7 +70,13 @@
       
       
   }
-
+  @media only screen and (min-width: 1200px){
+    .bottom{
+      bottom: 2%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
   
 
 @media only screen and (max-width: 769px) {
@@ -84,14 +90,14 @@
 
     .monkey-3{
         right: 50% !important;
-       width: 200px;
+       width: 140px;
     }
     .monkey-2{
-        width: 200px;
+        width: 140px;
         right: 25% !important;
     }
     .monkey-1{
-        width: 300px;
+        width: 200px;
         right: -15% !important;
     }
 
@@ -155,16 +161,16 @@
       transform: translate(-20%, 75%);
     }
     .roadmap{
-      min-height: 90vh !important;
+      min-height: 80vh !important;
     }
     .bottom{
-      bottom: 0%;
+      bottom: 8%;
       left: 50%;
       transform: translateX(-50%);
     }
 
     .col_8{
-      top: 20% !important;
+      top: 30% !important;
       right: 0% !important;
       
     }
@@ -181,9 +187,9 @@
 
   @media only screen and (min-width: 998px){
     .col_8{
-      top: 50% !important;
+      top: 30% !important;
       right: 0% !important;
-      transform: translateY(-50%) !important;
+      transform: translateY(-30%) !important;
     }
   }
 
@@ -253,7 +259,11 @@
       .col_8{
        position: static !important;
       }
-    
+    .about{
+      align-items: center  !important;
+      text-align: center !important;
+
+    }
     
   }
 
@@ -299,5 +309,14 @@
     
   .width{
     width: 100% !important;
+  }
+  .bottom{
+    bottom: 0%;
+    left: 15%;
+    transform: translateX(0%);
+    display: inline-block;
+  }
+  .wallet{
+    display: none !important;
   }
 }
