@@ -63,8 +63,8 @@
   }
 
   .pac{
-    top: 20% !important;
-    left: 0% !important;
+    top: 24% !important;
+    left: 3% !important;
     transform: translateY(-20%) !important;
   }
   .ring{
@@ -113,7 +113,7 @@
   }
 
   .phase_1{
-    transform: translate(-19%, -47%);
+    transform: translate(-19%, -59%);
   }
   .phase_2{
     transform: translate(-5%, -27%);
