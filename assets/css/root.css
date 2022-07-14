@@ -21,50 +21,16 @@
 
 }
 
-@media (min-width:300px) {
-    :root {
-        --fs_xxl: 56px;
-        --fs_xl: 36px;
-        --fs_lg: 24px;
-        --fs_md: 22px;
-        --fs_sm: 20px;
-        --fs_xs: 16px;    
-    }
-}
-
-@media (min-width:576px) {
-    :root {
-        --fs_xxl: 64px;
-        --fs_xl: 36px;
-        --fs_lg: 24px;
-        --fs_md: 22px;
-        --fs_sm: 20px;
-        --fs_xs: 16px;    
-    }
-}
-
-@media (min-width:776px) {
-    :root {
-        --fs_xxl: 64px;
-        --fs_xl: 36px;
-        --fs_lg: 24px;
-        --fs_md: 22px;
-        --fs_sm: 20px;
-        --fs_xs: 16px;    
-    }
-}
-
-@media (min-width:992px) {
-    :root {
-        --fs_xxl: 64px;
-        --fs_xl: 36px;
-        --fs_lg: 24px;
-        --fs_md: 22px;
-        --fs_sm: 20px;
-        --fs_xs: 16px;
-    
-    }
-}
+/* @media (min-width:300px) {
+  :root {
+      --fs_xxl: 56px;
+      --fs_xl: 36px;
+      --fs_lg: 24px;
+      --fs_md: 22px;
+      --fs_sm: 20px;
+      --fs_xs: 16px;    
+  }
+} */
 
 @media (min-width:1400px) {
     .bg-hero{
@@ -75,16 +41,282 @@
         min-height: 100vh !important;
         z-index: -30 !important;
     }
+
+    .min_vh_100{
+        min-height: 130vh !important;
+      }
+
+
 }
 
 
 @media only screen and (max-width: 1500px) {
     .bg-hero{
-        background-image: url(../image/png/hero.png);
-        background-position: center  ;
-        background-size: cover;
-        background-repeat: no-repeat;
         min-height: 135vh !important;
-       
+    }
+    .b1, .b2, .b3,.b4,.b5,.b6,.b7,.b8,.b9,.b10{
+        background-color: black;
+        height: 130px;
+        width: 130px;
+        
+      }
+      .img1 {
+        width: 600px !important;
+        display: inline !important;
+      }
+      .min_vh_100{
+        min-height: 130vh !important;
+      }
+      
+      
+  }
+  @media only screen and (min-width: 1200px){
+    .bottom{
+      bottom: 2%;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
+  
+
+@media only screen and (max-width: 769px) {
+    
+
+    .bg-hero{
+        background-position: center right  !important;
+        min-height: 100vh !important;
+       
+    }
+
+    .monkey-3{
+        right: 50% !important;
+       width: 140px;
+    }
+    .monkey-2{
+        width: 140px;
+        right: 25% !important;
+    }
+    .monkey-1{
+        width: 200px;
+        right: -15% !important;
+    }
+
+    .grass_1{
+        right: 0px;
+        top: 0%;
+        width:300px ;
+    }
+    .grass_2{
+        left: 0px;
+        top: 0%;
+        width:300px ;   
+    }
+
+    .w-40{
+        width: 100% !important;
+    }
+
+    :root{
+        
+    --fs_xxl: 40px;
+    --fs_xl: 30px;
+    --fs_lg: 20px;
+    --fs_md: 16px;
+    --fs_sm: 16px;
+    --fs_xs: 16px;
+    }
+  }
+@media only screen and (min-width: 1500px) {
+
+    .monkey-3{
+        right: 20% !important;
+        bottom: 0%;
+    }
+    .monkey-2{
+        right: 5% !important;
+        bottom: 0%;
+    }
+    .monkey-1{
+        right: -15% !important;
+        bottom: 0%;
+    }
+
+    .min_vh_100{
+        min-height: 140vh !important;
+    }
+
+    .phase_1{
+      transform: translate(-24%, -98%);
+    }
+    .phase_2{
+      transform: translate(-14%, -49%);
+    }
+    .phase_3{
+      transform: translate(-11%, -8%);
+    }
+    .phase_4{
+      transform: translate(-13%, 34%);
+    }
+    .phase_5{
+      transform: translate(-20%, 75%);
+    }
+    .roadmap{
+      min-height: 80vh !important;
+    }
+    .bottom{
+      bottom: 8%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .col_8{
+      top: 30% !important;
+      right: 0% !important;
+      
+    }
+    :root{
+        
+      --fs_xxl: 85px;
+      --fs_xl: 30px;
+      --fs_lg: 20px;
+      --fs_md: 16px;
+      --fs_sm: 16px;
+      --fs_xs: 26px;
+      }
+  }
+
+  @media only screen and (min-width: 998px){
+    .col_8{
+      top: 30% !important;
+      right: 0% !important;
+      transform: translateY(-30%) !important;
+    }
+  }
+
+  @media only screen and (max-width: 998px){
+    .left{
+        flex-direction: row !important;
+        gap: 48px;
+        top: 0;
+        left: 0 !important;
+    }
+    .right{
+        flex-direction: row !important;
+        bottom: 0;
+        gap: 48px;
+        right: 0;
+    }
+
+    .content {
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+       }
+
+    .b1,.b5{
+        transform: translateY(100%);
+      }
+      .b2,.b4{
+        transform: translateY(50%);
+      }
+      .b3{
+        transform: translateY(0%);
+      }
+      .b6,.b10{
+        transform: translateY(-100%);
+      }
+      .b7,.b9{
+        transform: translateY(-50%);
+      }
+      .b8{
+        transform: translateX(0%);
+      }
+      .pac{
+        display: none !important;
+      }
+      .ring{
+        display: none !important;
+      }
+      .line{
+        display: none !important;
+      }
+
+      .phase_1{
+        transform: translate(0%, 0%);
+      }
+      .phase_2{
+        transform: translate(0%, 0%);
+      }
+      .phase_3{
+        transform: translate(0%, 0%);
+      }
+      .phase_4{
+        transform: translate(0%, 0%);
+      }
+      .phase_5{
+        transform: translate(0%, 0%);
+      }
+      .col_8{
+       position: static !important;
+      }
+    .about{
+      align-items: center  !important;
+      text-align: center !important;
+
+    }
+    
+  }
+
+  @media only screen and (max-width: 568px){
+    .img1 {
+        width: 300px !important;
+        display: inline !important;
+      }
+      .content {
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+       }
+
+       .b1, .b2, .b3,.b4,.b5,.b6,.b7,.b8,.b9,.b10{
+        background-color: black;
+        height: 80px;
+        width: 80px;
+        
+      }
+      .left{
+        flex-direction: row !important;
+        gap: 8px;
+        top: 15%;
+        left: -25px !important;
+    }
+    .right{
+        flex-direction: row !important;
+        bottom: 30px;
+        gap: 8px;
+        right: -30px;
+    }
+
+    .min_vh_100{
+        min-height: 100vh !important;
+    }
+ 
+    .content{
+      top: 25%;
+      position: absolute;
+      left: 50%;
+  }
+    
+  .width{
+    width: 100% !important;
+  }
+  .bottom{
+    bottom: 0%;
+    left: 15%;
+    transform: translateX(0%);
+    display: inline-block;
+  }
+  .wallet{
+    display: none !important;
+  }
+}

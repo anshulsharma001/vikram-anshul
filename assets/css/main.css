@@ -18,11 +18,11 @@ html,body {
 .document_box{
     background: rgba(255, 255, 255, 0.1);
 border: 1px solid rgba(255, 255, 255, 0.2);
-backdrop-filter: blur(31px);
+
 border-radius: 16px;
 padding: 25px 19px 22px 22px;
-z-index: -1;
-overflow: hidden;
+z-index: 99 !important;
+overflow: hidden !important;
 }
 .document_box:hover {
     background: #FDDA60;
@@ -30,6 +30,7 @@ overflow: hidden;
     transform: scale(1.04);
     transition: all 400ms ease-in-out;
     color: black !important;
+  
   
 }
 .document_box:hover p {
@@ -123,7 +124,9 @@ form #input-wrap {
   margin: 0px;
   padding: 0px;
 }
-
+#increase{
+  z-index: 999 !important;
+}
 input#number {
   text-align: center;
   border: none;
@@ -159,7 +162,7 @@ input[type=number]::-webkit-outer-spin-button {
 box-shadow: 0px 4px 15px rgba(253, 218, 96, 0.5);
 border-radius: 4px;
 display: inline-block;
-padding: 18px 0;
+
 width: 480px;
 text-align: center;
 margin-top: 29px;
@@ -233,6 +236,9 @@ box-shadow: 5px 4px 10px 1px 3px #fdda60;
   font-size: 20px;
 }
 .accordion-button {
+  /* z-index: 3; */
+ border-bottom: 0px solid #FDDA60 !important;
+
  border-top: 1px solid #FDDA60 !important;
   outline: 0;
 }
@@ -240,6 +246,7 @@ box-shadow: 5px 4px 10px 1px 3px #fdda60;
 .accordion-button:not(.collapsed) {
   background-color: yellow;
   color: white !important;
+  
 }
 
 
@@ -247,12 +254,15 @@ box-shadow: 5px 4px 10px 1px 3px #fdda60;
   padding: 22px 20px;
   background-color: transparent !important;
   color: white;
+ 
 }
 
 .accordion-item {
   background-color: transparent !important;
   color: white;
   padding: 4px 0 !important;
+  border-bottom: none !important;
+
 }
 
 .accordion-button:focus {
@@ -272,13 +282,13 @@ box-shadow: 5px 4px 10px 1px 3px #fdda60;
 }
 
 
-.rotate{
+/* .rotate{
   animation: rotate 6s linear infinite;
 }
 @keyframes rotate{ to
 
 {transform: rotate(360deg);}
-}
+} */
 
 @media (max-width: 992px) {
   form {
@@ -295,6 +305,7 @@ box-shadow: 5px 4px 10px 1px 3px #fdda60;
 
 }
 }
+
 .mover{
   animation: mover 6s linear infinite;
 }
@@ -326,7 +337,8 @@ box-shadow: 5px 4px 10px 1px 3px #fdda60;
   background-color:#fff;
   transition: 0.3s ease-in-out;
   border-radius: 0 0 50%;
-  z-index: 1;
+  z-index: 1 !important;
+  
 }
 .positioning_card_down{
  bottom: 10px;

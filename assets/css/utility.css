@@ -14,7 +14,7 @@
 	height: 140px;
 	position: relative;
 	perspective: 1900px;
-    transform: rotate3d(1, 1, 1, 20deg);
+    transform: rotate3d(1, 1, 1, 20deg) !important;
 }
 
 
@@ -65,6 +65,7 @@
 
 html,body{
     overflow-x: hidden;
+    height: 100%;
 }
 .bg-hero{
     background-image: url(../image/png/hero.png);
@@ -102,31 +103,35 @@ html,body{
     padding: 16px 24px;
     box-shadow: 0px 4px 16px rgba(253, 218, 96, 0.5);
 border-radius: 4px;
-transition: 300ms ease-in-out;
+transition: 300ms ease-in-out !important;
 z-index: 999 !important;
+
+
+cursor: pointer;
+display: block;
+/* position: relative; */
 }
 .button:hover{
     padding: 16px 24px;
     box-shadow: 0px 4px 16px rgba(253, 218, 96, 1);
-    border-radius: 4px;
     background-color: transparent;
-    color: white !important;
+    color: #FDDA60 !important;
 }
 
 .monkey-3{
-    right: 30%;
+    right: 28%;
     bottom: 0%;
     z-index: 0 !important;
     
 }
 .monkey-2{
-    right: 9%;
+    right: 7%;
     bottom: 0%;
     z-index: 0 !important;
     
 }
 .monkey-1{
-    right: -23%;
+    right: -25%;
     bottom: 0%;
    z-index: 0 !important;
    
@@ -134,4 +139,78 @@ z-index: 999 !important;
 
 .h_hero{
        z-index: 1 !important;
+}
+.btn-4 {
+       
+        overflow: hidden !important;
+        position: relative;
+        overflow: hidden !important;
+}
+    .btn-4 span {
+        z-index: 20;
+        overflow: hidden;
+   }
+    .btn-4:after {
+        background: #fff;
+        content:'';
+        height: 130px;
+        right: -75px;
+        opacity: 1;
+        position: absolute;
+        top: -50px;
+        transform: rotate(320deg);
+        box-shadow: 0px 14px 56px rgb(255, 255, 255, 5);
+        animation: all 3s infinite cubic-bezier(0.19, 1, 0.22, 1);
+        width: 4px;
+        z-index: -10;
+        overflow: hidden !important;
+        filter: blur(50%) !important;
+        box-shadow: #fff;
+        
+   }
+    /* .btn-4:hover:after {
+        right: 120%;
+        transition: all 5s ease-in-out cubic-bezier(0.19, 1, 0.22, 1) !important;
+   } */
+
+   @keyframes all {
+    0%{
+        right: 0%;
     }
+    100%{
+        right: 150%;
+    }
+   }
+
+.blur {
+    height: 216px;
+    width: 216px;
+    filter: blur(150px);
+    background-color: #FDDA60;
+    transition: 0.3s ease-in-out;
+    border-radius: 50%;
+    z-index: 0;
+
+}
+
+.position_blur{
+    position: absolute;
+    right: 15%;
+    top: 30% !important;
+}
+
+
+.blur1 {
+    height: 316px;
+    width: 316px;
+    filter: blur(150px);
+    background-color: #FDDA60;
+    transition: 0.3s ease-in-out;
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+
+}
+
