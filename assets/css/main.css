@@ -308,19 +308,19 @@ box-shadow: 5px 4px 10px 1px 3px #fdda60;
 }
 }
 
-.mover{
+/* .mover{
   animation: mover 6s linear infinite;
   z-index: 999 !important;
-}
+} */
 
-@keyframes mover{
+/* @keyframes mover{
   0%{
-    /* transform: translate(40px,20px); */
+    transform: translate(40px,20px);
   }
   50%{
     transform: scale(1.04);
   }
-}
+} */
 
 .twitter path:hover{
   fill: #FDDA60;
