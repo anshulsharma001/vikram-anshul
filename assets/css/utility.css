@@ -114,6 +114,8 @@ display: block;
 .button:hover{
     padding: 16px 24px;
     box-shadow: 0px 4px 16px rgba(253, 218, 96, 1);
+    background-color: transparent;
+    color: #FDDA60 !important;
 }
 
 .monkey-3{
