@@ -183,10 +183,10 @@ margin-top: 29px;
 .scale_transition:hover{
   transition: all 400ms ease-in-out;
 }
-/* .border_yellow{
+.border_yellow{
   border-top: 1px solid #FDDA60;
 box-shadow: 5px 4px 10px 1px 3px #fdda60;
-} */
+}
 
 .top_border_card{
   width: 100%;
