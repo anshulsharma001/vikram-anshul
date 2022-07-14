@@ -72,7 +72,7 @@ html,body{
     background-position: center  ;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+   
    
 }
 
@@ -119,41 +119,38 @@ display: block;
 }
 
 .monkey-3{
-    right: 28%;
+    right: 24%;
     bottom: 0%;
     z-index: 0 !important;
+    width: 25%;
     
 }
 .monkey-2{
     right: 7%;
     bottom: 0%;
     z-index: 0 !important;
-    
+    width: 24%;
 }
 .monkey-1{
-    right: -25%;
+    right: -15%;
     bottom: 0%;
    z-index: 0 !important;
-   
+   width: 35%;
 }
 
 .h_hero{
        z-index: 1 !important;
 }
 .btn-4 {
-       
+       z-index: 5;
         overflow: hidden !important;
         position: relative;
         overflow: hidden !important;
 }
-    .btn-4 span {
-        z-index: 20;
-        overflow: hidden;
-   }
     .btn-4:after {
         background: #fff;
         content:'';
-        height: 130px;
+        height: 250%;
         right: -75px;
         opacity: 1;
         position: absolute;
@@ -162,16 +159,13 @@ display: block;
         box-shadow: 0px 14px 56px rgb(255, 255, 255, 5);
         animation: all 3s infinite cubic-bezier(0.19, 1, 0.22, 1);
         width: 4px;
-        z-index: -10;
+        z-index: -1;
         overflow: hidden !important;
         filter: blur(50%) !important;
         box-shadow: #fff;
         
    }
-    /* .btn-4:hover:after {
-        right: 120%;
-        transition: all 5s ease-in-out cubic-bezier(0.19, 1, 0.22, 1) !important;
-   } */
+
 
    @keyframes all {
     0%{
