@@ -250,6 +250,9 @@ box-shadow: 5px 4px 10px 1px 3px #fdda60;
   color: white !important;
   
 }
+.z-index-99{
+  z-index: 999;
+}
 
 
 .accordion-body {
@@ -284,13 +287,7 @@ box-shadow: 5px 4px 10px 1px 3px #fdda60;
 }
 
 
-/* .rotate{
-  animation: rotate 6s linear infinite;
-}
-@keyframes rotate{ to
 
-{transform: rotate(360deg);}
-} */
 
 @media (max-width: 992px) {
   form {
@@ -308,19 +305,7 @@ box-shadow: 5px 4px 10px 1px 3px #fdda60;
 }
 }
 
-/* .mover{
-  animation: mover 6s linear infinite;
-  z-index: 999 !important;
-} */
 
-/* @keyframes mover{
-  0%{
-    transform: translate(40px,20px);
-  }
-  50%{
-    transform: scale(1.04);
-  }
-} */
 
 .twitter path:hover{
   fill: #FDDA60;
